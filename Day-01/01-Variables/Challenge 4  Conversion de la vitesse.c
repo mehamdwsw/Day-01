@@ -3,7 +3,7 @@
 int main()
 {
  float kmh,ms;
- printf("Entrez la vitesse de km/h:");
+ printf("Enter la vitesse de km/h:");
  scanf("%f",&kmh);
  ms=kmh* 0.27778;
  printf("vitesse de km/s:%.2f",ms);

@@ -3,7 +3,7 @@
 int main()
 {
   float km, yards;
-  printf("Entrez la kilomètres:");
+  printf("Enter la kilomètres:");
   scanf("%f",&km);
    yards=km*1093.61;
    
