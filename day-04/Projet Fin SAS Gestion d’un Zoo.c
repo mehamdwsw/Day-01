@@ -5,14 +5,7 @@
 int id=21,choix=0;
 int nombre_zoo=20;int a;
 int Afficher_index[]={1,2,3,4,5,6,7,8,9};
-// تعريف الألوان
-#define RESET   "\033[0m"
-#define RED     "\033[31m"
-#define GREEN   "\033[32m"
-#define YELLOW  "\033[33m"
-#define BLUE    "\033[34m"
-#define MAGENTA "\033[35m"
-#define CYAN    "\033[36m"
+
 struct zoo{
     int z_id;
     char nom [50];
